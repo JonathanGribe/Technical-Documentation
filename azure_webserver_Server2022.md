@@ -1,4 +1,4 @@
-# Setup Guide - Azure Webserver (Windows Server 2022)
+# Setup Guide - Deploying Azure Webserver (Windows Server 2022)
 
 ## Introduction:
 By the end of this lab, you will be able to set up a web server using Azure virtual machine and Windows Server 2022
