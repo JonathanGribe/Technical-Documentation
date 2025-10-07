@@ -7,11 +7,14 @@ This is a guide to setting up and hosting a website using Internet Information S
 ________________________________________
 ## Prerequisites:
 •	Knowing how to do basic computer navigation 
+
 •	Familiarity in Azure Portal is recommended
 ________________________________________
 ## Platforms and Environment
-Environment:
+**Environment:**
+
 •	Microsoft Azure (https://portal.azure.com)
+
 •	Windows Server 2022 - Datacenter - x64 Gen2
 ________________________________________
 ## Setup Overview:
