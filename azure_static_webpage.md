@@ -1,4 +1,4 @@
-# Building a Static Web Page through Azure Blob Storage
+# Deploying a Static Web Page through Azure Blob Storage
 
 ## Introduction
 In this lab, you will learn how to host a simple static website using **Azure Blob Storage**. Azure Blob Storage is a cloud-based service that allows you to store files such as HTML, CSS, and JavaScript, and make them accessible over the internet. By the end of this exercise, you will have a working static web page hosted directly from Azure.
