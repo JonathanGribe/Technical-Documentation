@@ -34,6 +34,7 @@ ________________________________________
 
 <img width="572" height="836" alt="image" src="https://github.com/user-attachments/assets/c9f1653b-a7ad-4937-83c8-36aa6c6f1127" />
 
+
 **Step 2: Virtual Machine Configuration**
 1. Under ‘Project details’ will need to fill out each configuration information (Subscription, Resource group, etc…)
 2. Refer to VM configuration table section at the end of the document for details
@@ -41,6 +42,7 @@ ________________________________________
 --Whatever information is required it will be specified. 
 -- Information with  “”   fill in with your own information. 
 --Anything left blank can be ignored and skipped.
+
 
 **Step 3: Connect to the Virtual Machine using RDP**
 1. Navigate toAzure Virtual Machine’s Overview Page 
@@ -75,6 +77,7 @@ ________________________________________
 
 <img width="975" height="695" alt="image" src="https://github.com/user-attachments/assets/342f9436-1a05-4c56-824b-3b26b71961c4" />
 
+
 **Step 2: Add rule to the VM Network Security Group**
 Although Windows Server (IIP management) maybe correctly configured we need to allow web traffic through the Azure Firewall (Network Security Group)
 1. Select the Network drop-down in left menu
@@ -89,6 +92,8 @@ Verify Server is working:
 2. Should populate with the IIS website as shown below:
 
 <img width="975" height="677" alt="image" src="https://github.com/user-attachments/assets/53b75784-6cf4-4b21-9b58-83859b0f62fa" />
+
+
 
 ## Adding Custom Website
 **Step 1: Gather/Create web files to be used for the website**
@@ -105,6 +110,7 @@ Verify Server is working:
   
 <img width="975" height="197" alt="image" src="https://github.com/user-attachments/assets/4fb16d35-aa8d-46cd-81a9-8c69626c947d" />
 
+
 **Step 3: Add the website to IIS manager**
 1. Left side of IIS manager, right-click on server name
 2. Click 'Add website'
@@ -115,7 +121,9 @@ Verify Server is working:
    - In the example, the path is C:\inetpub\ArtPortfolio
    <img width="922" height="1056" alt="image" src="https://github.com/user-attachments/assets/d84d665e-1949-4a3c-aafa-d164f03a945f" />
 
-Step 4: Verifying website is online
+
+
+**Step 4: Verifying website is online**
 1. Open up a web browser on Server 2022
 2. Type http://localhost into the address bar
    - If successful, will show website
