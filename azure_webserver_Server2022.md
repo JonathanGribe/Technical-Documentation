@@ -140,40 +140,41 @@ Example website:
 
 ## Azure Virtual Machine Configurations (For Step 1 – Getting Started):
 
-Section	Name	Value
-Basics	Subscription	""
- 	Resource Group	""
- 	Virtual Machine Name	""
- 	Region	Whichever region is closes to you
- 	Availability Options	 
- 	Security Type	Standard
- 	Image	Windows Server 2022 - Datacenter - x64 Gen2 (Click 'See all images' and under 'Market Place' type into the search field the image name)
- 	Size	Standard D4as v6 (4 vcpus, 16 GiB memory)
- 	Username	""
- 	Password	""
- 	Inbound Port Rules	 
-Disks	OS Disk Type	Premium SSD (locally-redundant storage)
- 	Encryption Type	 
- 	Data Disks	 
- 	Host Caching	 
- 	Ephemeral OS Disk	 
-Networking	Virtual Network (VNet)	 
- 	Subnet	 
- 	Public IP Address	 
- 	NIC Network Security Group	 
- 	Accelerated Networking	 
- 	Load Balancing	 
-Management	Monitoring	 
- 	Identity	 
- 	Auto-shutdown	 
- 	Backup	 
- 	Guest OS Updates	 
-Advanced	Extensions	 
- 	Custom Data	 
- 	Host Group	 
- 	Proximity Placement Group	 
- 	VM Generation	 
-Tags	Name / Value Pairs	 
+| Section     | Name                          | Value                                                                 |
+|-------------|-------------------------------|-----------------------------------------------------------------------|
+| Basics      | Subscription                  | ""                                                                    |
+|             | Resource Group                | ""                                                                    |
+|             | Virtual Machine Name          | ""                                                                    |
+|             | Region                        | Whichever region is closest to you                                   |
+|             | Availability Options          |                                                                       |
+|             | Security Type                 | Standard                                                              |
+|             | Image                         | Windows Server 2022 - Datacenter - x64 Gen2 (Click 'See all images' and under 'Market Place' type into the search field the image name) |
+|             | Size                          | Standard D4as v6 (4 vcpus, 16 GiB memory)                             |
+|             | Username                      | ""                                                                    |
+|             | Password                      | ""                                                                    |
+|             | Inbound Port Rules            |                                                                       |
+| Disks       | OS Disk Type                  | Premium SSD (locally-redundant storage)                              |
+|             | Encryption Type               |                                                                       |
+|             | Data Disks                    |                                                                       |
+|             | Host Caching                  |                                                                       |
+|             | Ephemeral OS Disk             |                                                                       |
+| Networking  | Virtual Network (VNet)        |                                                                       |
+|             | Subnet                        |                                                                       |
+|             | Public IP Address             |                                                                       |
+|             | NIC Network Security Group    |                                                                       |
+|             | Accelerated Networking        |                                                                       |
+|             | Load Balancing                |                                                                       |
+| Management  | Monitoring                    |                                                                       |
+|             | Identity                      |                                                                       |
+|             | Auto-shutdown                 |                                                                       |
+|             | Backup                        |                                                                       |
+|             | Guest OS Updates              |                                                                       |
+| Advanced    | Extensions                    |                                                                       |
+|             | Custom Data                   |                                                                       |
+|             | Host Group                    |                                                                       |
+|             | Proximity Placement Group     |                                                                       |
+|             | VM Generation                 |                                                                       |
+| Tags        | Name / Value Pairs            |                                                                       |
 
 
 
