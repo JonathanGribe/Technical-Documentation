@@ -1,1 +1,1 @@
-#Threat Hunting KQL starter queries
+# Threat Hunting KQL starter queries
